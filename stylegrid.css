@@ -1,0 +1,94 @@
+﻿*{margin:0;padding:0;box-sizing:border-box;}
+
+.main{
+	 width:95%;
+	 margin:50px auto;
+	 border:1px solid black;
+	 color: white;
+	 display:grid;
+	 grid-template-rows:30px 40px 400px 40px;
+	 grid-template-columns:1fr 350px;
+	 grid-gap:5px;
+	 
+}
+.header{
+	 background-color:white;
+	 grid-column:1/3;
+	 text-align:center;
+	 color:black;
+	 
+}
+.header img{float:left;
+	width:43px;
+	height:30px;
+}
+.navbar{
+	 background-color:#3366FF;
+	 grid-column:1/3;
+	 grid-row:2/3;
+}
+/*.photo{
+	 background-color:#000066;
+	 background-image:url('https://i.ibb.co/QNwFyjK/PTblue640.png');
+	 background-position:center;
+	 background-repeat:no-repeat;
+}*/
+.fun{
+	background-color:#000033;
+	text-align:left;
+	color:white;
+	
+}
+.footer{
+	background-color:#3366FF;
+	grid-row:4/5;
+	grid-column:1/3;
+	text-align:center;
+	color:orange;
+	font-style:normal;
+	font-size:small;
+}
+.navbar ul{
+	list-style:none;
+	display:flex;
+	justify-content:center;
+	padding:10px;
+	
+}
+.navbar ul li{
+	padding:7px 14px;
+}
+.navbar ul li a{
+	text-decoration:none;
+	font-size:15px;
+	color:#fff;
+}
+.navbar ul li:hover{
+	background-color:#0033CC;
+	transition:0.1s all;
+}
+@media (max-width:786px){
+	nav ul{
+	text-align:center;
+	flex-direction:column;
+	height:200px;
+  }
+  .navbar ul li{
+	border-bottom:1px solid #000;
+}
+.button {
+	/*position:absolute;
+	top:82%;
+	left:30%;
+	transform:translate(-50%,-50%);*/
+	
+}
+.btn {
+	border:1px solid #fff;
+	/*background-color:white;
+	visibility:inherit;
+	padding:10px 30px;
+	color:maroon;
+	text-decoration:none;*/
+	
+}
